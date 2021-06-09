@@ -1,0 +1,15 @@
+Package: mater
+Type: Package
+Title: This package simulates breeding matrices for pedigree reconstructions
+Version: 0.1.0
+Author: Nick Sard
+Maintainer: Nick Sard <nicksard@gmail.com>
+Description: The package simulates breeding matrices,
+    calculates summary statistics using the information
+    within a matrix, and converts the information into a 
+    reconstructed parent-offspring pedigree.
+License: GPL
+Depends: tidyr, dplyr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
