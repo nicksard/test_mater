@@ -475,6 +475,7 @@ brd.mat <- function(moms = 100,dads = 100,lambda.low = 3,lambda.high = 3){
 #'    (see above) across mates or "decline" which non-uniformly distributes offspring across mates
 #'
 #'@return A matrix with zeros and positive integers representing offspring produced per mate pair
+#'@export
 
 brd.mat.fitness <- function(mat = mat, min.fert = 2500, max.fert = 6500, type = "uniform"){
 
